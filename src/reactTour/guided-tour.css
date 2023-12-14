@@ -1,0 +1,21 @@
+.reactour__mask + div > div {
+    width: fit-content;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+  }
+  
+  /* .reactour__popover::before {
+     content: " ";
+     position: absolute;
+     left: -10px;
+     top: 15px;
+     border-top: 10px solid transparent;
+     border-right: 10px solid white;
+     border-left: none;
+     border-bottom: 10px solid transparent;
+  } */
+  .reactour__close-button + div > button {
+    cursor: pointer;
+  }
+  

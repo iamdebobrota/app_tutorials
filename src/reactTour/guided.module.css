@@ -1,0 +1,31 @@
+.leftTopArrow::before {
+    content: ' ';
+    position: absolute;
+    left: -9px;
+    top: 15px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid white;
+    border-left: none;
+    border-bottom: 10px solid transparent;
+  }
+  .leftBottomArrow::before {
+    content: ' ';
+    position: absolute;
+    left: -9px;
+    bottom: 25px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid white;
+    border-left: none;
+    border-bottom: 10px solid transparent;
+  }
+  .topArrow::after {
+    content: ' ';
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    border-top: none;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid white;
+  }
+  
